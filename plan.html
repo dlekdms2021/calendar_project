@@ -1,0 +1,25 @@
+<html>
+    <head> <!-- tag 주석 -->
+        <meta charset="uft-8" /> <!-- ACSII, abc-->
+        <title>플랜</title>
+    </head>
+    <style>
+        button {
+        width: 200px;
+        height: 30px;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 10%;
+        background: rgb(255, 228, 236);
+        }
+    </style>
+    <body>
+        <button type="button" onclick="doAction()">달력으로 돌아가기</button>
+    </body>
+    <script>
+        // 달력으로 돌아가기 버튼 누를 때의 action
+        function doAction() {
+            location.replace("calendar.html");
+        }
+    </script>
+</html>
